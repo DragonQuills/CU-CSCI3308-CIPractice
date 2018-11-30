@@ -160,7 +160,6 @@ START_TEST(test_2d_area) //check if triangle area function works
     c.y = 25;
     ck_assert(coord_2d_area_triangle(&a, &b, &c) == 222.50);
 
-
     a.x = 15;
     a.y = 15;
     b.x = 23;
